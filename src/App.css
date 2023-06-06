@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+.App,
+.app__dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app__dark {
+  background: #151c2f;
+}
+
+.container {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+span.ant-input-affix-wrapper.input__field--dark.css-cslsss.ant-input-affix-wrapper-lg.css-dev-only-do-not-override-k7429z,
+.input__field--dark
+  input.ant-input.ant-input-lg.css-dev-only-do-not-override-k7429z {
+  background-color: #1e2a47 !important;
+  color: #fff;
+}
+
+input.ant-input.ant-input-lg.css-dev-only-do-not-override-k7429z::placeholder {
+  font-family: "Space Mono", monospace;
+}
+
+span.ant-input-affix-wrapper.input__field--dark.css-cslsss.ant-input-affix-wrapper-lg.css-dev-only-do-not-override-k7429z,
+.input__field--dark
+  input.ant-input.ant-input-lg.css-dev-only-do-not-override-k7429z::placeholder {
+  color: #fff;
+  font-family: "Space Mono", monospace;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 598px) {
+  .App,
+  .app__dark {
+    padding: 100px 32px;
+  }
+  .container {
+    width: 100%;
+  }
+}
